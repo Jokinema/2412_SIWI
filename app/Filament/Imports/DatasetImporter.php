@@ -16,11 +16,15 @@ class DatasetImporter extends Importer
         return [
             ImportColumn::make('username')
                 ->requiredMapping()
+                ->example('ini_username')
                 ->rules(['sometimes', 'max:255']),
             ImportColumn::make('full_text')
                 ->requiredMapping()
+                ->example('Lorem lipsum')
                 ->rules(['required']),
             ImportColumn::make('sentiment')
+                ->requiredMapping()
+                ->example('negatif')
                 ->numeric()
                 ->rules(['required']),
         ];

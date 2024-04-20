@@ -23,9 +23,22 @@ class DatasetResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\TextInput::make('username')->required(),
-                Forms\Components\TextInput::make('full_text')->required(),
-                Forms\Components\TextInput::make('sentiment')->required(),
+                Forms\Components\TextInput::make('username')
+                    ->columnSpanFull()
+                    ->required(),
+                Forms\Components\Textarea::make('full_text')
+                    ->columnSpanFull()
+                    ->cols(40)
+                    ->required(),
+                Forms\Components\Select::make('sentiment')
+                    ->placeholder('Pilih Sentiment')
+                    ->options([
+                        'negatif' => 'Negatif',
+                        'netral' => 'Netral',
+                        'positif' => 'Positif',
+                    ])
+                    ->columnSpanFull()
+                    ->required(),
             ]);
     }
 
