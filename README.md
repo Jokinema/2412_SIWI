@@ -7,6 +7,19 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Instalasi 
+
+1. composer install
+2. composer update
+3. npm install
+4. npm update
+5. php artisan key:generate
+6. php artisan migrate
+7. php artisan db:seed
+## Cara Run (DEV)
+
+1. php artisan serve
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
