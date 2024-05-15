@@ -93,7 +93,7 @@ class ListPreProcessings extends ListRecords
 
                     } catch (ProcessFailedException $e) {
                         // Menangani pengecualian, misalnya memberi tahu pengguna tentang kegagalan
-                        dd( $e->getMessage());
+//                        dd( $e->getMessage());
                         Notification::make()
                             ->title('Process failed: ' . $e->getMessage())
                             ->warning()
