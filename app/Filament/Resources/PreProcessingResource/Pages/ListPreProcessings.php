@@ -20,7 +20,7 @@ class ListPreProcessings extends ListRecords
             Action::make('Run Pre-Processing')
                 ->requiresConfirmation()
                 ->action(function () {
-                    $command = "ping 8.8.8.8";
+                    $command = "python3 -m pip install flask";
                     $process = SymfonyProcess::fromShellCommandline($command);
                     $process->run();
 
