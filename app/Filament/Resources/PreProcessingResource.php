@@ -17,7 +17,7 @@ class PreProcessingResource extends Resource
 {
     protected static ?string $model = PreProcessing::class;
     protected static ?string $navigationGroup = 'Models';
-    protected static ?string $navigationLabel = 'Pre-Processing';
+    protected static ?string $navigationLabel = 'Pre-Processing (Cleaning)';
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
     public static function form(Form $form): Form
@@ -32,7 +32,9 @@ class PreProcessingResource extends Resource
     {
         return $table
             ->columns([
-                //
+                Tables\Columns\TextColumn::make('cleaned')->label('Cleaned'),
+//                Tables\Columns\TextColumn::make('sentiment'),
+                Tables\Columns\TextColumn::make('dataset.full_text')->label('Original'),
             ])
             ->filters([
                 //
