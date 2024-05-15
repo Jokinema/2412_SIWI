@@ -13,6 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+// Route::get('guest/form', \App\Livewire\GuestForm::class);
+//Route::get('posts/create', CreatePost::class);
