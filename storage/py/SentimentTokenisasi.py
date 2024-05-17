@@ -122,7 +122,7 @@ def sentimentCSV() -> csv:
 
 def sentimentToken() -> csv:
     global tweetDatasetFile, outDatasetFile
-    tweetDataset = pandas.read_csv(tweetDatasetFile)
+    tweetDataset = pandas.read_csv(tweetDatasetFile,  header=None)
     tweetDataset.columns = ["id", "cleaned"]
     #  print(tweetDataset)
     # tweetDataset = tweetDataset.drop_duplicates(subset=['tweet'])
