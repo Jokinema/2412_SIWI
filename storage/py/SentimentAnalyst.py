@@ -1,8 +1,16 @@
+import os
+os.environ['APPDATA'] = r"C:\Users\dwise\AppData\Roaming"
+os.environ["USERPROFILE"] = r"C:\Users\dwise"
+
+import matplotlib.pyplot as plt
+import seaborn
+
+
 import pandas
 import csv
-import seaborn
+# import seaborn
 import time
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from itertools import filterfalse, islice
 from functools import reduce, lru_cache
 import operator
@@ -18,6 +26,7 @@ sentimentDatasetFile = None
 kataPenguatFile = None
 tweetDatasetFile = None
 outDatasetFile = None
+appPath = None
 
 negasi = ["tidak", "tidaklah", "bukan", "bukanlah", "bukannya","ngga", "nggak", "enggak", "nggaknya",
     "kagak", "gak"]
@@ -31,10 +40,10 @@ preprocessingTweet = lambda wordTweets : filterfalse(lambda x:
 
 @lru_cache(maxsize=2180)
 def findWeightSentiment(wordTweet:str) -> int:
-    global  sentimentDataset
-    for x, i in enumerate(x for x in sentimentDataset['word']):
+    global sentimentDatasetFile
+    for x, i in enumerate(x for x in sentimentDatasetFile['words']):
         if i == wordTweet:
-            return next(islice((x for x in sentimentDataset['weight']), x, None))
+            return next(islice((x for x in sentimentDatasetFile['weight']), x, None))
     return 0
 
 @lru_cache(maxsize=30)
@@ -77,24 +86,24 @@ def sentimentCalc(args) -> float:
     else:
         return 0
 
-sentimentProcess = lambda dataset : (dict(original_tweet=x, sentiment_result=sentimentCalc(sentimentFinder(x, preprocessingTweet)), token = wordTweetsFinder(x, preprocessingTweet))
-    for x in dataset)
+sentimentProcess = lambda dataset : (dict(id=x["id"],  cleaned=x["cleaned"], sentiment_result=sentimentCalc(sentimentFinder(x["cleaned"], preprocessingTweet)))
+    for _, x in dataset.iterrows())
 
-sentimentTokenProcess = lambda dataset : (dict(original_tweet=x, token = wordTweetsFinder(x, preprocessingTweet))
-    for x in dataset)
+sentimentTokenProcess = lambda dataset : (dict(id=x["id"], cleaned=x["cleaned"], token = wordTweetsFinder(x["cleaned"], preprocessingTweet))
+                                          for _, x in dataset.iterrows())
 
 
 def sentimentCSV() -> csv:
     global tweetDatasetFile, outDatasetFile
-    tweetDataset = pandas.read_csv(tweetDatasetFile)
-    tweetDataset = tweetDataset.drop_duplicates(subset=['cleaned'])
-    tweetDataset = tweetDataset.reset_index(drop=True)
+    # tweetDataset = pandas.read_csv(tweetDatasetFile)
+    tweetDataset = pandas.read_csv(tweetDatasetFile, header=None)
+    tweetDataset.columns = ["id", "cleaned"]
 
     with open(outDatasetFile,'w') as file:
-        writer = csv.DictWriter(file, ["original_tweet", "sentiment_result", "token"])
+        writer = csv.DictWriter(file, ["id", "sentiment_result", "cleaned"])
         writer.writeheader()
         with concurrent.futures.ThreadPoolExecutor() as executor:
-            executor.map(writer.writerow, sentimentProcess(tweetDataset['tweet']))
+            executor.map(writer.writerow, sentimentProcess(tweetDataset))
 
     # Save cleaned data to JSON file
     # Create a dictionary
@@ -118,15 +127,18 @@ def sentimentCSV() -> csv:
 
 def sentimentToken() -> csv:
     global tweetDatasetFile, outDatasetFile
-    tweetDataset = pandas.read_csv(tweetDatasetFile)
-    tweetDataset = tweetDataset.drop_duplicates(subset=['tweet'])
-    tweetDataset = tweetDataset.reset_index(drop=True)
+    tweetDataset = pandas.read_csv(tweetDatasetFile,  header=None)
+    tweetDataset.columns = ["id", "cleaned"]
+    #  print(tweetDataset)
+    # tweetDataset = tweetDataset.drop_duplicates(subset=['tweet'])
+    # tweetDataset = tweetDataset.reset_index(drop=True)
 
     with open(outDatasetFile, 'w') as file:
-        writer = csv.DictWriter(file, ["original_tweet", "token"])
+        writer = csv.DictWriter(file, ["id", "cleaned", "token"])
         writer.writeheader()
         with concurrent.futures.ThreadPoolExecutor() as executor:
-            executor.map(writer.writerow, sentimentTokenProcess(tweetDataset['tweet']))
+
+            executor.map(writer.writerow, sentimentTokenProcess(tweetDataset))
 
     # Save cleaned data to JSON file
     # Create a dictionary
@@ -148,24 +160,32 @@ def sentimentToken() -> csv:
         jsonString = json.dumps(jsonArray, indent=4)
         jsonf.write(jsonString)
 
+def sentimentPlotSingleFile() -> plt:
+    global tweetDatasetFile, outDatasetFile, appPath
 
-def sentimentPlotSingleFile(fileName:str) -> plt:
     datasetResult = pandas.read_csv(outDatasetFile)
     seaborn.displot(datasetResult, x=datasetResult["sentiment_result"])
-    plt.title('Sebaran Data Sentiment {}'.format(fileName))
+    plt.title('Data Sentiment ')
     plt.xlabel('sentiment')
-    plt.show()
+    plt.savefig(appPath + '/app/public/sentiment.jpg')
 
-def sentimentWordCloud(fileName:str) -> plt:
+
+def sentimentWordCloud() -> plt:
+    global tweetDatasetFile, outDatasetFile, appPath
+
     datasetResult = pandas.read_csv(outDatasetFile)
+    seaborn.displot(datasetResult, x=datasetResult["sentiment_result"])
+
     wordcloud = WordCloud(width = 800, height = 800, background_color = 'black', max_words = 1000
-                      , min_font_size = 20).generate(str(datasetResult['original_tweet']))
+                      , min_font_size = 20).generate(str(datasetResult['cleaned']))
     plt.figure(figsize = (8,8), facecolor = None)
     plt.imshow(wordcloud)
     plt.axis('off')
-    plt.show()
+    plt.savefig(appPath + '/app/public/wordcloud.jpg')
+
 
 if __name__ == "__main__":
+
     import argparse
     import time
 
@@ -174,18 +194,31 @@ if __name__ == "__main__":
     parser.add_argument('--kataPenguat', type=str, required=True)
     parser.add_argument('--tweetDataset', type=str, required=True )
     parser.add_argument('--outDataset', type=str, required=True)
+    parser.add_argument('--appPath', type=str, required=True)
 
     args = parser.parse_args()
 
     sentimentDatasetFile = pandas.read_csv(args.sentimentDataset)
+    sentimentDatasetFile.columns = ["words", "weight"]
+
     kataPenguatFile = pandas.read_csv(args.kataPenguat)
+    kataPenguatFile.columns = ["words", "weight"]
+
     tweetDatasetFile = args.tweetDataset
     outDatasetFile = args.outDataset
+
+    appPath = args.appPath
 
     # nama file untuk hasil sentiment analysis
     time1 = time.perf_counter()
     sentimentCSV()
+    sentimentPlotSingleFile()
+    sentimentWordCloud()
+
     time2 = time.perf_counter()
     print(f"Process Sudah Selesai, Silahkan Restart Browser")
     print(f"Waktu Eksekusi: {time2 - time1} detik")
+
+
+
     print(findWeightSentiment.cache_info())

@@ -1,0 +1,997 @@
+[
+    {
+        "id": "1199",
+        "cleaned": "pemilu yang berkualitas dan demokratis menjadi tonggak kemajuan indonesia ",
+        "token": "['milu', 'kualitas', 'demokratis', 'tonggak', 'maju', 'indonesia']"
+    },
+    {
+        "id": "1200",
+        "cleaned": "pemilu damai di daerah konflik simbol kemajuan demokrasi indonesia pemungutan suara yang aman di papua dan daerah konflik lain menjadi simbol kemajuan demokrasi indonesia ",
+        "token": "['milu', 'damai', 'daerah', 'konflik', 'simbol', 'maju', 'demokrasi', 'indonesia', 'mungut', 'suara', 'aman', 'papua', 'daerah', 'konflik', 'simbol', 'maju', 'demokrasi', 'indonesia']"
+    },
+    {
+        "id": "1201",
+        "cleaned": "pemilu damai di daerah konflik simbol kemajuan demokrasi indonesia pemungutan suara yang aman di papua dan daerah konflik lain menjadi simbol kemajuan demokrasi indonesia ",
+        "token": "['milu', 'damai', 'daerah', 'konflik', 'simbol', 'maju', 'demokrasi', 'indonesia', 'mungut', 'suara', 'aman', 'papua', 'daerah', 'konflik', 'simbol', 'maju', 'demokrasi', 'indonesia']"
+    },
+    {
+        "id": "1202",
+        "cleaned": "menurut uu hasil pemilu ditentukan oleh suara sah pemilih dalam pemungutan suara yang teratur ",
+        "token": "['uu', 'hasil', 'milu', 'tentu', 'suara', 'sah', 'pilih', 'mungut', 'suara', 'atur']"
+    },
+    {
+        "id": "1203",
+        "cleaned": "ingat bangsa indonesia cinta kedamaian ",
+        "token": "['bangsa', 'indonesia', 'cinta', 'damai']"
+    },
+    {
+        "id": "1204",
+        "cleaned": "hidup aman dan damai adalah impian masyarakat indonesia ",
+        "token": "['hidup', 'aman', 'damai', 'impi', 'masyarakat', 'indonesia']"
+    },
+    {
+        "id": "1205",
+        "cleaned": "pemungutan suara yang aman di papua dan daerah konflik lain menjadi simbol kemajuan demokrasi indonesia ",
+        "token": "['mungut', 'suara', 'aman', 'papua', 'daerah', 'konflik', 'simbol', 'maju', 'demokrasi', 'indonesia']"
+    },
+    {
+        "id": "1206",
+        "cleaned": "stabilitas nasional pasca pemilu ",
+        "token": "['stabilitas', 'nasional', 'pasca', 'milu']"
+    },
+    {
+        "id": "1207",
+        "cleaned": "pemilu dinilai sebagai representatif musyawarah dalam menentukan pemimpin ",
+        "token": "['milu', 'nilai', 'representatif', 'musyawarah', 'tentu', 'pimpin']"
+    },
+    {
+        "id": "1208",
+        "cleaned": "pujian internasional terhadap penyelenggaraan pemilu indonesia yang damai dan demokratis khususnya dari peemuan asean australia ",
+        "token": "['puji', 'internasional', 'selenggara', 'milu', 'indonesia', 'damai', 'demokratis', 'peemuan', 'asean', 'australia']"
+    },
+    {
+        "id": "1209",
+        "cleaned": "tunggu hasil pemilu dengan damai mari kita hargai pilihan orang lain dan hasil pemilu ",
+        "token": "['tunggu', 'hasil', 'milu', 'damai', 'mari', 'harga', 'pilih', 'orang', 'hasil', 'milu']"
+    },
+    {
+        "id": "1210",
+        "cleaned": "ciptakan perdamaian untuk menjadikan bangsa indonesia yang lebih maju dalam berdemokrasi ",
+        "token": "['cipta', 'damai', 'jadi', 'bangsa', 'indonesia', 'maju', 'demokrasi']"
+    },
+    {
+        "id": "1211",
+        "cleaned": "indonesia merupakan bangsa yang besar untuk itulah kita harus dewasa dalam menyikapi pasca pemilu ",
+        "token": "['indonesia', 'bangsa', 'harus', 'dewasa', 'sikap', 'pasca', 'milu']"
+    },
+    {
+        "id": "1212",
+        "cleaned": "pemilu telah usai mari kita saling merangkul lagi ",
+        "token": "['milu', 'mari', 'rangkul']"
+    },
+    {
+        "id": "1213",
+        "cleaned": "pujian internasional terhadap penyelenggaraan pemilu indonesia yang damai dan demokratis khususnya dari peemuan asean australia ",
+        "token": "['puji', 'internasional', 'selenggara', 'milu', 'indonesia', 'damai', 'demokratis', 'peemuan', 'asean', 'australia']"
+    },
+    {
+        "id": "1214",
+        "cleaned": "yuk tetap ciptakan suasana damai pasca pemilu ",
+        "token": "['yuk', 'cipta', 'suasana', 'damai', 'pasca', 'milu']"
+    },
+    {
+        "id": "1215",
+        "cleaned": "ktt ini menegaskan pentingnya menerima hasil pemilu dan mendukung pemenang mendorong semua pihak untuk bersatu mempercepat pemulihan kondusifitas dan pembangunan indonesia ",
+        "token": "['ktt', 'terima', 'hasil', 'milu', 'dukung', 'menang', 'dorong', 'satu', 'cepat', 'pulih', 'kondusifitas', 'bangun', 'indonesia']"
+    },
+    {
+        "id": "1216",
+        "cleaned": "pujian internasional terhadap penyelenggaraan pemilu indonesia yang damai dan demokratis khususnya dari peemuan asean australia ",
+        "token": "['puji', 'internasional', 'selenggara', 'milu', 'indonesia', 'damai', 'demokratis', 'peemuan', 'asean', 'australia']"
+    },
+    {
+        "id": "1217",
+        "cleaned": "mari kita jaga kondusifitas pasca pemilu ",
+        "token": "['mari', 'jaga', 'kondusifitas', 'pasca', 'milu']"
+    },
+    {
+        "id": "1218",
+        "cleaned": "pujian internasional terhadap penyelenggaraan pemilu indonesia yang damai dan demokratis ",
+        "token": "['puji', 'internasional', 'selenggara', 'milu', 'indonesia', 'damai', 'demokratis']"
+    },
+    {
+        "id": "1219",
+        "cleaned": "banyak pihak mengapresiasi pemilu damai indonesia ",
+        "token": "['apresiasi', 'milu', 'damai', 'indonesia']"
+    },
+    {
+        "id": "1220",
+        "cleaned": "pemilu damai indonesia dan ajakan untuk rekonsiliasi nasional ",
+        "token": "['milu', 'damai', 'indonesia', 'aja', 'rekonsiliasi', 'nasional']"
+    },
+    {
+        "id": "1221",
+        "cleaned": "apresiasi internasional untuk pemilu damai indonesia dan ajakan untuk rekonsiliasi nasional ",
+        "token": "['apresiasi', 'internasional', 'milu', 'damai', 'indonesia', 'aja', 'rekonsiliasi', 'nasional']"
+    },
+    {
+        "id": "1222",
+        "cleaned": "pujian internasional terhadap penyelenggaraan pemilu indonesia yang damai dan demokratis khususnya dari peemuan asean australia ",
+        "token": "['puji', 'internasional', 'selenggara', 'milu', 'indonesia', 'damai', 'demokratis', 'peemuan', 'asean', 'australia']"
+    },
+    {
+        "id": "1223",
+        "cleaned": "ktt ini menegaskan pentingnya menerima hasil pemilu dan mendukung pemenang mendorong semua pihak untuk bersatu mempercepat pemulihan kondusifitas dan pembangunan indonesia ",
+        "token": "['ktt', 'terima', 'hasil', 'milu', 'dukung', 'menang', 'dorong', 'satu', 'cepat', 'pulih', 'kondusifitas', 'bangun', 'indonesia']"
+    },
+    {
+        "id": "1224",
+        "cleaned": "banyak pihak mengapresiasi pemilu damai indonesia ",
+        "token": "['apresiasi', 'milu', 'damai', 'indonesia']"
+    },
+    {
+        "id": "1225",
+        "cleaned": "indonesia damai ",
+        "token": "['indonesia', 'damai']"
+    },
+    {
+        "id": "1226",
+        "cleaned": "cegah perpecahan antar kelompok politik pasca pemilu ",
+        "token": "['cegah', 'pecah', 'kelompok', 'politik', 'pasca', 'milu']"
+    },
+    {
+        "id": "1227",
+        "cleaned": "bulan ramadan harus menjadi momentum untuk meredam konflik pasca pemilu ",
+        "token": "['ramadan', 'harus', 'momentum', 'redam', 'konflik', 'pasca', 'milu']"
+    },
+    {
+        "id": "1228",
+        "cleaned": "pemilu damai ",
+        "token": "['milu', 'damai']"
+    },
+    {
+        "id": "1229",
+        "cleaned": "dari peemuan asean australia menjadi motivasi bagi indonesia untuk mengatasi polarisasi dan merajut kembali harmoni nasional ",
+        "token": "['peemuan', 'asean', 'australia', 'motivasi', 'indonesia', 'atas', 'polarisasi', 'rajut', 'harmoni', 'nasional']"
+    },
+    {
+        "id": "1230",
+        "cleaned": "mari kita bersatu untuk meredam konflik dan perpecahan ",
+        "token": "['mari', 'satu', 'redam', 'konflik', 'pecah']"
+    },
+    {
+        "id": "1231",
+        "cleaned": "mewujudkan kondusifitas pasca pemilu demi terciptanya kerukunan bangsa ",
+        "token": "['wujud', 'kondusifitas', 'pasca', 'milu', 'cipta', 'rukun', 'bangsa']"
+    },
+    {
+        "id": "1232",
+        "cleaned": "kpu ri memulai rapat pleno terbuka rekapitulasi suara pemilu menekankan pada transparansi dan integritas hasil ",
+        "token": "['kpu', 'ri', 'rapat', 'pleno', 'buka', 'rekapitulasi', 'suara', 'milu', 'tekan', 'transparansi', 'integritas', 'hasil']"
+    },
+    {
+        "id": "1233",
+        "cleaned": "kpu daerah melaporkan keberhasilan rapat pleno terbuka penghitungan suara yang aman dan lancar menegaskan pentingnya transparansi dan akuntabilitas dalam pemilu rapat pleno ",
+        "token": "['kpu', 'daerah', 'lapor', 'hasil', 'rapat', 'pleno', 'buka', 'hitung', 'suara', 'aman', 'lancar', 'transparansi', 'akuntabilitas', 'milu', 'rapat', 'pleno']"
+    },
+    {
+        "id": "1234",
+        "cleaned": "kpu ri memulai rapat pleno terbuka rekapitulasi suara pemilu menekankan pada transparansi dan integritas hasil ",
+        "token": "['kpu', 'ri', 'rapat', 'pleno', 'buka', 'rekapitulasi', 'suara', 'milu', 'tekan', 'transparansi', 'integritas', 'hasil']"
+    },
+    {
+        "id": "1235",
+        "cleaned": "pujian internasional terhadap penyelenggaraan pemilu indonesia yang damai dan demokratis khususnya dari peemuan asean australia menjadi motivasi bagi indonesia untuk mengatasi polarisasi dan merajut kembali harmoni nasional ",
+        "token": "['puji', 'internasional', 'selenggara', 'milu', 'indonesia', 'damai', 'demokratis', 'peemuan', 'asean', 'australia', 'motivasi', 'indonesia', 'atas', 'polarisasi', 'rajut', 'harmoni', 'nasional']"
+    },
+    {
+        "id": "1236",
+        "cleaned": "kpu daerah melaporkan keberhasilan rapat pleno terbuka penghitungan suara yang aman dan lancar menegaskan pentingnya transparansi dan akuntabilitas dalam pemilu ",
+        "token": "['kpu', 'daerah', 'lapor', 'hasil', 'rapat', 'pleno', 'buka', 'hitung', 'suara', 'aman', 'lancar', 'transparansi', 'akuntabilitas', 'milu']"
+    },
+    {
+        "id": "1237",
+        "cleaned": "indonesia telah menunjukkan kedewasaan dalam proses demokrasi dengan kesadaran tinggi akan nilai kebangsaan dan kemanusiaan sebagai fondasi utama menghadapi masa depan ",
+        "token": "['indonesia', 'dewasa', 'proses', 'demokrasi', 'sadar', 'nilai', 'bangsa', 'manusia', 'fondasi', 'utama', 'hadap']"
+    },
+    {
+        "id": "1238",
+        "cleaned": "kpu bali berkomitmen untuk menjadi provinsi peama yang menyelesaikan rekapitulasi suara nasional dengan cepat dan akurat ",
+        "token": "['kpu', 'bal', 'komitmen', 'provinsi', 'peama', 'selesai', 'rekapitulasi', 'suara', 'nasional', 'cepat', 'akurat']"
+    },
+    {
+        "id": "1239",
+        "cleaned": "kpu telah menunjukkan dedikasi luar biasa dalam menggelar pemilu meskipun menghadapi kendala teknis sepei masalah aplikasi sirekap dan pelaksanaan psu di beberapa tempat ",
+        "token": "['kpu', 'dedikasi', 'gelar', 'milu', 'hadap', 'kendala', 'teknis', 'pei', 'aplikasi', 'sirekap', 'laksana', 'psu']"
+    },
+    {
+        "id": "1240",
+        "cleaned": "hormati proses rekapitulasi suara nasional pemilu di kpu ri ",
+        "token": "['hormat', 'proses', 'rekapitulasi', 'suara', 'nasional', 'milu', 'kpu', 'ri']"
+    },
+    {
+        "id": "1241",
+        "cleaned": "bulan ramadhan jadi momentum untuk persatuan dan kesatuan pasca pemilu ",
+        "token": "['ramadhan', 'momentum', 'satu', 'satu', 'pasca', 'milu']"
+    },
+    {
+        "id": "1242",
+        "cleaned": "pentingnya mempeahankan stabilitas keamanan pasca pemilu ",
+        "token": "['mempeahankan', 'stabilitas', 'aman', 'pasca', 'milu']"
+    },
+    {
+        "id": "1243",
+        "cleaned": "bangun ruang digital bersih dan sehat untuk demokrasi indonesia yg kuat pemilu tanpa hoax ",
+        "token": "['bangun', 'ruang', 'digital', 'bersih', 'sehat', 'demokrasi', 'indonesia', 'yg', 'kuat', 'milu', 'hoax']"
+    },
+    {
+        "id": "1244",
+        "cleaned": "imbauan menghormati proses rekapitulasi suara nasional pemilu di kpu ri ",
+        "token": "['imbau', 'hormat', 'proses', 'rekapitulasi', 'suara', 'nasional', 'milu', 'kpu', 'ri']"
+    },
+    {
+        "id": "1245",
+        "cleaned": "klarifikasi data dpt dan penanganan honorarium sea kesehatan petugas kpps menjadi prioritas untuk menjaga transparansi dan meningkatkan kepercayaan publik terhadap hasil pemilu ",
+        "token": "['klarifikasi', 'data', 'dpt', 'tangan', 'honorarium', 'sea', 'sehat', 'tugas', 'kpps', 'prioritas', 'jaga', 'transparansi', 'tingkat', 'percaya', 'publik', 'hasil', 'milu']"
+    },
+    {
+        "id": "1246",
+        "cleaned": "hak angket di dpr ri tidak akan mengubah hasil pemilu ",
+        "token": "['hak', 'angket', 'dpr', 'ri', 'tidak', 'ubah', 'hasil', 'milu']"
+    },
+    {
+        "id": "1247",
+        "cleaned": "penyelenggara pemilu mengimbau pelaporan kecurangan secara resmi sementara tokoh masyarakat mengajak untuk menjaga ketenangan dan tidak terprovokasi oleh informasi palsu ",
+        "token": "['selenggara', 'milu', 'imbau', 'lapor', 'curang', 'resmi', 'tokoh', 'masyarakat', 'ajak', 'jaga', 'tenang', 'tidak', 'provokasi', 'informasi', 'palsu']"
+    },
+    {
+        "id": "1248",
+        "cleaned": "adanya hak angket atau interpelasi menjadi langkah yang sangat tepat urgent strategis dan konstitusional sehingga memerlukan dukungan publik yang meluas ",
+        "token": "['hak', 'angket', 'interpelasi', 'langkah', 'urgent', 'strategis', 'konstitusional', 'dukung', 'publik', 'luas']"
+    },
+    {
+        "id": "1249",
+        "cleaned": "upaya kpu hadapi tantangan pemilu demi wujudkan prinsip luberjurdil klarifikasi data dpt dan penanganan honorarium sea kesehatan petugas kpps menjadi prioritas untuk menjaga transparansi ",
+        "token": "['upaya', 'kpu', 'hadap', 'tantang', 'milu', 'wujud', 'prinsip', 'luberjurdil', 'klarifikasi', 'data', 'dpt', 'tangan', 'honorarium', 'sea', 'sehat', 'tugas', 'kpps', 'prioritas', 'jaga', 'transparansi']"
+    },
+    {
+        "id": "1250",
+        "cleaned": "klarifikasi data dpt dan penanganan honorarium sea kesehatan petugas kpps menjadi prioritas untuk menjaga transparansi dan meningkatkan kepercayaan publik terhadap hasil pemilu ",
+        "token": "['klarifikasi', 'data', 'dpt', 'tangan', 'honorarium', 'sea', 'sehat', 'tugas', 'kpps', 'prioritas', 'jaga', 'transparansi', 'tingkat', 'percaya', 'publik', 'hasil', 'milu']"
+    },
+    {
+        "id": "1251",
+        "cleaned": "kpu telah menjalankan tahap kritis pemilu dengan berbagai tantangan sepei pencoblosan ulang di beberapa wilayah karena faktor geografis dan cuaca sea penghitungan suara ulang ",
+        "token": "['kpu', 'jalan', 'tahap', 'kritis', 'milu', 'tantang', 'pei', 'coblos', 'ulang', 'wilayah', 'faktor', 'geografis', 'cuaca', 'sea', 'hitung', 'suara', 'ulang']"
+    },
+    {
+        "id": "1252",
+        "cleaned": "mk telah menjalankan tugas menyelesaikan sengketa pemilu sesuai peraturan perundang undangan membuat keputusannya final dan tak terpengaruh oleh hak angket dpr ",
+        "token": "['mk', 'jalan', 'tugas', 'selesai', 'sengketa', 'milu', 'sesuai', 'atur', 'undang', 'undang', 'putus', 'final', 'pengaruh', 'hak', 'angket', 'dpr']"
+    },
+    {
+        "id": "1253",
+        "cleaned": "mahkamah konstitusi mk telah menjalankan tugas menyelesaikan sengketa pemilu sesuai peraturan perundang undangan membuat keputusannya final dan tak final ",
+        "token": "['mahkamah', 'konstitusi', 'mk', 'jalan', 'tugas', 'selesai', 'sengketa', 'milu', 'sesuai', 'atur', 'undang', 'undang', 'putus', 'final', 'final']"
+    },
+    {
+        "id": "1254",
+        "cleaned": "hak angket meskipun merupakan alat kontrol parlemen jika digunakan dalam konteks ini berpotensi menimbulkan ketidakstabilan politik ",
+        "token": "['hak', 'angket', 'alat', 'kontrol', 'parlemen', 'konteks', 'potensi', 'timbul', 'ketidakstabilan', 'politik']"
+    },
+    {
+        "id": "1255",
+        "cleaned": "hasil pemilu ditentukan oleh suara sah pemilih dalam pemungutan suara yang teratur hak angket meskipun merupakan alat kontrol parlemen jika digunakan dalam konteks ini berpotensi menimbulkan ketidakstabilan politik ",
+        "token": "['hasil', 'milu', 'tentu', 'suara', 'sah', 'pilih', 'mungut', 'suara', 'atur', 'hak', 'angket', 'alat', 'kontrol', 'parlemen', 'konteks', 'potensi', 'timbul', 'ketidakstabilan', 'politik']"
+    },
+    {
+        "id": "1256",
+        "cleaned": "pemilu adanya hak angket atau interpelasi menjadi langkah yang sangat tepat urgent strategis dan konstitusional sehingga memerlukan dukungan publik yang meluas ",
+        "token": "['milu', 'hak', 'angket', 'interpelasi', 'langkah', 'urgent', 'strategis', 'konstitusional', 'dukung', 'publik', 'luas']"
+    },
+    {
+        "id": "1257",
+        "cleaned": "pahami peran mahkamah konstitusi dan hak angket dpr dalam sistem demokrasi pemilu ",
+        "token": "['paham', 'peran', 'mahkamah', 'konstitusi', 'hak', 'angket', 'dpr', 'sistem', 'demokrasi', 'milu']"
+    },
+    {
+        "id": "1258",
+        "cleaned": "kalian udah memilih nih ",
+        "token": "['udah', 'pilih', 'nih']"
+    },
+    {
+        "id": "1259",
+        "cleaned": "dukung pemilu tanpa kecurangan kawal suara real count di sirekap untuk demokrasi sehat ",
+        "token": "['dukung', 'milu', 'curang', 'kawal', 'suara', 'real', 'count', 'sirekap', 'demokrasi', 'sehat']"
+    },
+    {
+        "id": "1260",
+        "cleaned": "jangan biarkan hoax memecah belah bersatu kita teguh menjaga kerukunan dan persatuan sebelum saat dan setelah pemilu ",
+        "token": "['biar', 'hoax', 'pecah', 'belah', 'satu', 'teguh', 'jaga', 'rukun', 'satu', 'milu']"
+    },
+    {
+        "id": "1261",
+        "cleaned": "pemung tan s ara sudah kita laluidenganlancar dan gembira selanj tnya mari kita kawal penghitungans ara dengan damai dan hormati hasilnya ",
+        "token": "['mung', 'tan', 's', 'ara', 'laluidenganlancar', 'gembira', 'selanj', 'tnya', 'mari', 'kawal', 'penghitungans', 'ara', 'damai', 'hormat', 'hasil']"
+    },
+    {
+        "id": "1262",
+        "cleaned": "sirekap dan kawalpemilu inovasi dalam pemilu untuk demokrasi yang transparan ",
+        "token": "['sirekap', 'kawalpemilu', 'inovasi', 'milu', 'demokrasi', 'transparan']"
+    },
+    {
+        "id": "1263",
+        "cleaned": "tolak segala provokasi dan hoax penghitungan suara untuk menjaga pemilu aman damai dan kondusif ",
+        "token": "['tolak', 'provokasi', 'hoax', 'hitung', 'suara', 'jaga', 'milu', 'aman', 'damai', 'kondusif']"
+    },
+    {
+        "id": "1264",
+        "cleaned": "semua paslon pasti memiliki rencana kerja yang terbaik bagi bangsa siapapun yang menang juga pasti akan melakukan yang terbaik demi kemajuan bangsa ",
+        "token": "['paslon', 'pasti', 'milik', 'rencana', 'kerja', 'baik', 'bangsa', 'menang', 'pasti', 'baik', 'maju', 'bangsa']"
+    },
+    {
+        "id": "1265",
+        "cleaned": "pemilu damai bersatu pasca pemilu dukung dialog antarpasangan calon dan tunggu pengumuman resmi hasil pemilu oleh kpu ri ",
+        "token": "['milu', 'damai', 'satu', 'pasca', 'milu', 'dukung', 'dialog', 'antarpasangan', 'calon', 'tunggu', 'umum', 'resmi', 'hasil', 'milu', 'kpu', 'ri']"
+    },
+    {
+        "id": "1266",
+        "cleaned": "pemilu meski penuh ketegangan dalam kampanye dan pemungutan suara berhasil diadakan dalam suasana damai ",
+        "token": "['milu', 'penuh', 'tegang', 'kampanye', 'mungut', 'suara', 'hasil', 'ada', 'suasana', 'damai']"
+    },
+    {
+        "id": "1267",
+        "cleaned": "kita telah berhasil melaksanakan pemungutan suara secara damai sekarang waktunya menjaga perdamaian itu sambil menunggu hasil penghitungan suara oleh kpu ",
+        "token": "['hasil', 'laksana', 'mungut', 'suara', 'damai', 'jaga', 'damai', 'tunggu', 'hasil', 'hitung', 'suara', 'kpu']"
+    },
+    {
+        "id": "1268",
+        "cleaned": "dengan menyerukan penerimaan hasil pemilu sebagai refleksi kepercayaan rakyat yang berdampak pada ekonomi mari kawal pemilu damai sampai selesai ",
+        "token": "['seru', 'terima', 'hasil', 'milu', 'refleksi', 'percaya', 'rakyat', 'dampak', 'ekonomi', 'mari', 'kawal', 'milu', 'damai', 'selesai']"
+    },
+    {
+        "id": "1269",
+        "cleaned": "kedua inisiatif teknologi ini beujuan untuk mengurangi manipulasi suara dan menjamin integritas proses demokrasi menandai langkah maju dalam memastikan pemilu yang transparan dan adil ",
+        "token": "['inisiatif', 'teknologi', 'beujuan', 'kurang', 'manipulasi', 'suara', 'jamin', 'integritas', 'proses', 'demokrasi', 'tanda', 'langkah', 'maju', 'milu', 'transparan', 'adil']"
+    },
+    {
+        "id": "1270",
+        "cleaned": "perlu meningkatkan kesadaran publik terhadap hoaks dan memperkuat komitmen bersama dalam melawan disinformasi menjadi esensial ",
+        "token": "['tingkat', 'sadar', 'publik', 'hoaks', 'kuat', 'komitmen', 'lawan', 'disinformasi', 'esensial']"
+    },
+    {
+        "id": "1271",
+        "cleaned": "demokrasi yang stabil dan sehat akan menjadi dasar bagi pemerintahan yang baik good governance pembangunan berkelanjutan dan kemajuan di segala sektor bagi indonesia ",
+        "token": "['demokrasi', 'stabil', 'sehat', 'dasar', 'perintah', 'good', 'governance', 'bangun', 'lanjut', 'maju', 'sektor', 'indonesia']"
+    },
+    {
+        "id": "1272",
+        "cleaned": "tenang pak dzikri saya sudah bantu cek yg di input di kpu sudah benar ini ya pak scnya mana tau butuh senang membantu anda ",
+        "token": "['tenang', 'dzikri', 'bantu', 'cek', 'yg', 'input', 'kpu', 'ya', 'scnya', 'tau', 'butuh', 'senang', 'bantu']"
+    },
+    {
+        "id": "1273",
+        "cleaned": "upy bersama ini esensial untuk memastikan proses pemilu yang lancar dan transparan mendukung legitimasi hasil dan memperkuat fondasi demokrasi dengan informasi yang akurat ",
+        "token": "['upy', 'esensial', 'proses', 'milu', 'lancar', 'transparan', 'dukung', 'legitimasi', 'hasil', 'kuat', 'fondasi', 'demokrasi', 'informasi', 'akurat']"
+    },
+    {
+        "id": "1274",
+        "cleaned": "pemilu damai bersatu pasca pemilu dukung dialog antarpasangan calon dan tunggu pengumuman resmi hasil pemilu oleh kpu ri demokrasi hanya bisa maju jika kita bersatu ",
+        "token": "['milu', 'damai', 'satu', 'pasca', 'milu', 'dukung', 'dialog', 'antarpasangan', 'calon', 'tunggu', 'umum', 'resmi', 'hasil', 'milu', 'kpu', 'ri', 'demokrasi', 'maju', 'satu']"
+    },
+    {
+        "id": "1275",
+        "cleaned": "bersama wujudkan pemilu damai tanpa intimidasi ",
+        "token": "['wujud', 'milu', 'damai', 'intimidasi']"
+    },
+    {
+        "id": "1276",
+        "cleaned": "pemilu meski penuh ketegangan dalam kampanye dan pemungutan suara berhasil diadakan dalam suasana damai ",
+        "token": "['milu', 'penuh', 'tegang', 'kampanye', 'mungut', 'suara', 'hasil', 'ada', 'suasana', 'damai']"
+    },
+    {
+        "id": "1277",
+        "cleaned": "terima kasih atas terwujudnya pemilu yang kondusif karena seluruh rakyat sudah menjaga keamanan dan kedamaian selalu ",
+        "token": "['terima', 'kasih', 'wujud', 'milu', 'kondusif', 'rakyat', 'jaga', 'aman', 'damai']"
+    },
+    {
+        "id": "1278",
+        "cleaned": "tolak segala provokasi dan hoax penghitungan suara untuk menjaga pemilu aman damai dan kondusif ",
+        "token": "['tolak', 'provokasi', 'hoax', 'hitung', 'suara', 'jaga', 'milu', 'aman', 'damai', 'kondusif']"
+    },
+    {
+        "id": "1279",
+        "cleaned": "dengan menyerukan penerimaan hasil pemilu sebagai refleksi kepercayaan rakyat yang berdampak pada ekonomi mari kawal pemilu damai sampai selesai ",
+        "token": "['seru', 'terima', 'hasil', 'milu', 'refleksi', 'percaya', 'rakyat', 'dampak', 'ekonomi', 'mari', 'kawal', 'milu', 'damai', 'selesai']"
+    },
+    {
+        "id": "1280",
+        "cleaned": "kedua inisiatif teknologi ini beujuan untuk mengurangi manipulasi suara dan menjamin integritas proses demokrasi menandai langkah maju dalam memastikan pemilu yang transparan dan adil ",
+        "token": "['inisiatif', 'teknologi', 'beujuan', 'kurang', 'manipulasi', 'suara', 'jamin', 'integritas', 'proses', 'demokrasi', 'tanda', 'langkah', 'maju', 'milu', 'transparan', 'adil']"
+    },
+    {
+        "id": "1281",
+        "cleaned": "bismillahirohmanirohim izin yaa bukan apa apa tapi ga sepantas nya juga lo semua doa buruk begini tapi krna doa nya buat diri sendiri gue ga mau ngetik banyak deh istigfar aja kata gue seriuss semoga ga jabah ya sama yg diatas ",
+        "token": "['bismillahirohmanirohim', 'izin', 'yaa', 'bukan', 'ga', 'pantas', 'nya', 'lo', 'doa', 'buruk', 'krna', 'doa', 'nya', 'gue', 'ga', 'ngetik', 'deh', 'istigfar', 'aja', 'gue', 'seriuss', 'moga', 'ga', 'jabah', 'ya', 'yg', 'atas']"
+    },
+    {
+        "id": "1282",
+        "cleaned": "jaga pemilu damai pemilu yang berkualitas dan demokratis menjadi tonggak kemajuan indonesia ",
+        "token": "['jaga', 'milu', 'damai', 'milu', 'kualitas', 'demokratis', 'tonggak', 'maju', 'indonesia']"
+    },
+    {
+        "id": "1283",
+        "cleaned": "kpu telah menciptakan aplikasi sirekap inovasi revolusioner untuk penghitungan suara yang cepat dan akurat untuk pemilu ",
+        "token": "['kpu', 'cipta', 'aplikasi', 'sirekap', 'inovasi', 'revolusioner', 'hitung', 'suara', 'cepat', 'akurat', 'milu']"
+    },
+    {
+        "id": "1284",
+        "cleaned": "apkam organisasi sepei pbnu memainkan peran krusial dalam menjaga stabilitas mengajak semua pihak menghormati hasil pemilu demi pembangunan harmoni sosial ",
+        "token": "['apkam', 'organisasi', 'pei', 'pbnu', 'main', 'peran', 'krusial', 'jaga', 'stabilitas', 'ajak', 'hormat', 'hasil', 'milu', 'bangun', 'harmoni', 'sosial']"
+    },
+    {
+        "id": "1285",
+        "cleaned": "persatuan dan kesatuan bangsa adalah kunci untuk mencapai pembangunan yang berkelanjutan ",
+        "token": "['satu', 'satu', 'bangsa', 'kunci', 'capai', 'bangun', 'lanjut']"
+    },
+    {
+        "id": "1286",
+        "cleaned": "hasil patroli pengawasan bawaslu melalui aplikasi siwaslu di provinsi hingga februari mengungkap masalah pada proses pemungutan dan penghitungan suara pemilu ",
+        "token": "['hasil', 'patroli', 'awas', 'bawaslu', 'aplikasi', 'siwaslu', 'provinsi', 'februari', 'ungkap', 'proses', 'mungut', 'hitung', 'suara', 'milu']"
+    },
+    {
+        "id": "1287",
+        "cleaned": "aparat keamanan dan organisasi sepei pbnu memainkan peran krusial dlam menjaga stabilitas amp mengajak semua pihak menghormati hasil pemilu demi pembangunan amp harmoni sosial ",
+        "token": "['aparat', 'aman', 'organisasi', 'pei', 'pbnu', 'main', 'peran', 'krusial', 'dlam', 'jaga', 'stabilitas', 'amp', 'ajak', 'hormat', 'hasil', 'milu', 'bangun', 'amp', 'harmoni', 'sosial']"
+    },
+    {
+        "id": "1288",
+        "cleaned": "pencoblosan sudah dilaksanakan pilihan boleh beda tetapi kebersamaan persatuan dan kesatuan bangsa haruslah kita jaga ",
+        "token": "['coblos', 'laksana', 'pilih', 'beda', 'sama', 'satu', 'satu', 'bangsa', 'jaga']"
+    },
+    {
+        "id": "1289",
+        "cleaned": "pentingnya transparansi sirekap untuk mencegah potensi delegitimasi hasil pemilu ",
+        "token": "['transparansi', 'sirekap', 'cegah', 'potensi', 'delegitimasi', 'hasil', 'milu']"
+    },
+    {
+        "id": "1290",
+        "cleaned": "menjaga kedamaian pasca pemilu kunci membangun demokrasi yang kuat pentingnya kedamaian pasca pemilu tidak bisa diabaikan sebagai fondasi utama membangun negara yang demokratis ",
+        "token": "['jaga', 'damai', 'pasca', 'milu', 'kunci', 'bangun', 'demokrasi', 'kuat', 'damai', 'pasca', 'milu', 'tidak', 'abai', 'fondasi', 'utama', 'bangun', 'negara', 'demokratis']"
+    },
+    {
+        "id": "1291",
+        "cleaned": "stop hoaks ",
+        "token": "['stop', 'hoaks']"
+    },
+    {
+        "id": "1292",
+        "cleaned": "waspada hoaks dan provokasi mari jaga kedamaian pasca pemilu ",
+        "token": "['waspada', 'hoaks', 'provokasi', 'mari', 'jaga', 'damai', 'pasca', 'milu']"
+    },
+    {
+        "id": "1293",
+        "cleaned": "stop hoaks ",
+        "token": "['stop', 'hoaks']"
+    },
+    {
+        "id": "1294",
+        "cleaned": "hoaks mis informasi dan dis informasi musuh kita bersama ",
+        "token": "['hoaks', 'mis', 'informasi', 'dis', 'informasi', 'musuh']"
+    },
+    {
+        "id": "1295",
+        "cleaned": "segregasi dan konflik horizontal seolah menjadi residu yang tidak dapat langsung dihilangkan pasca pemilu ",
+        "token": "['segregasi', 'konflik', 'horizontal', 'residu', 'tidak', 'langsung', 'hilang', 'pasca', 'milu']"
+    },
+    {
+        "id": "1296",
+        "cleaned": "penggunaan hak angket pasca pemilu oleh kelompok kelompok yang tidak puas dengan hasil perhitungan suara merupakan pendekatan yang keliru ",
+        "token": "['guna', 'hak', 'angket', 'pasca', 'milu', 'kelompok', 'kelompok', 'tidak', 'puas', 'hasil', 'hitung', 'suara', 'dekat', 'keliru']"
+    },
+    {
+        "id": "1297",
+        "cleaned": "efisiensi dan ketetapan waktu adalah kunci pemilu yang damai mari bersama kita jaga kondusitifitas dan ciptakan indonesia yang maju ",
+        "token": "['efisiensi', 'tetap', 'kunci', 'milu', 'damai', 'mari', 'jaga', 'kondusitifitas', 'cipta', 'indonesia', 'maju']"
+    },
+    {
+        "id": "1298",
+        "cleaned": "jaga perdamaian dan persaudaraan pasca pelaksanaan pemilu agar terhindar dari perpecahan bangsa ",
+        "token": "['jaga', 'damai', 'saudara', 'pasca', 'laksana', 'milu', 'hindar', 'pecah', 'bangsa']"
+    },
+    {
+        "id": "1299",
+        "cleaned": "keamanan dan kondusifitas pasca pemilu dapat dimaknai sebagai pesta demokrasi indonesia yang berjalan aman dan lancar ",
+        "token": "['aman', 'kondusifitas', 'pasca', 'milu', 'makna', 'pesta', 'demokrasi', 'indonesia', 'jalan', 'aman', 'lancar']"
+    },
+    {
+        "id": "1300",
+        "cleaned": "rapat pleno terbuka ini diharapkan meningkatkan paisipasi publik dalam pengawasan dan validasi hasil pemungutan suara ",
+        "token": "['rapat', 'pleno', 'buka', 'harap', 'tingkat', 'paisipasi', 'publik', 'awas', 'validasi', 'hasil', 'mungut', 'suara']"
+    },
+    {
+        "id": "1301",
+        "cleaned": "rekonsiliasi dan pembangunan kebangsaan pasca pemilu dianggap langkah esensial untuk memperkuat persatuan dan kesatuan bangsa ",
+        "token": "['rekonsiliasi', 'bangun', 'bangsa', 'pasca', 'milu', 'anggap', 'langkah', 'esensial', 'kuat', 'satu', 'satu', 'bangsa']"
+    },
+    {
+        "id": "1302",
+        "cleaned": "keberhasilan ini juga menunjukkan profesionalisme kpu daerah memberi publik kepercayaan pada integritas dan keabsahan hasil pemilu ",
+        "token": "['hasil', 'profesionalisme', 'kpu', 'daerah', 'publik', 'percaya', 'integritas', 'absah', 'hasil', 'milu']"
+    },
+    {
+        "id": "1303",
+        "cleaned": "perolehan suara dari tingkat tps distrik hingga kabupaten tidak ada perubahan sehingga pelaksanaan rapat lainnya dapat berjalan sesuai regulasi yang ada ",
+        "token": "['oleh', 'suara', 'tingkat', 'tps', 'distrik', 'kabupaten', 'tidak', 'ubah', 'laksana', 'rapat', 'jalan', 'sesuai', 'regulasi']"
+    },
+    {
+        "id": "1304",
+        "cleaned": "demokrasi yang sehat memandang pentingnya paisipasi bukan hanya sebagai hak memberi suara namun juga tanggung jawab membangun masyarakat yang adil dan inklusif ",
+        "token": "['demokrasi', 'sehat', 'pandang', 'paisipasi', 'bukan', 'hak', 'suara', 'tanggung', 'bangun', 'masyarakat', 'adil', 'inklusif']"
+    },
+    {
+        "id": "1305",
+        "cleaned": "menciptakan situasi kondusif pasca pemilu memerlukan kerjasama pemerintah aparat keamanan masyarakat dan individu ",
+        "token": "['cipta', 'situasi', 'kondusif', 'pasca', 'milu', 'kerjasama', 'perintah', 'aparat', 'aman', 'masyarakat', 'individu']"
+    },
+    {
+        "id": "1306",
+        "cleaned": "waspada hoax selalu cek kebenaran dari setiap informasi untuk menjaga pelaksanaan pemilu rip legend dr slump bali ",
+        "token": "['waspada', 'hoax', 'cek', 'benar', 'informasi', 'jaga', 'laksana', 'milu', 'rip', 'legend', 'dr', 'slump', 'bal']"
+    },
+    {
+        "id": "1307",
+        "cleaned": "bangun ruang digital bersih dan sehat untuk demokrasi indonesia yang kuat ",
+        "token": "['bangun', 'ruang', 'digital', 'bersih', 'sehat', 'demokrasi', 'indonesia', 'kuat']"
+    },
+    {
+        "id": "1308",
+        "cleaned": "indonesia menunjukkan kedewasaan demokrasi dengan persatuan dan keharmonisan ",
+        "token": "['indonesia', 'dewasa', 'demokrasi', 'satu', 'harmonis']"
+    },
+    {
+        "id": "1309",
+        "cleaned": "dukung sinergitas semua pihak untuk menjaga stabilitas pasca pemilu ",
+        "token": "['dukung', 'sinergitas', 'jaga', 'stabilitas', 'pasca', 'milu']"
+    },
+    {
+        "id": "1310",
+        "cleaned": "kinerja kpu di pemilu menunjukkan komitmen kuat pada keadilan dan transparansi melalui regulasi ketat dan adaptasi terhadap tantangan daerah ",
+        "token": "['kerja', 'kpu', 'milu', 'komitmen', 'kuat', 'adil', 'transparansi', 'regulasi', 'ketat', 'adaptasi', 'tantang', 'daerah']"
+    },
+    {
+        "id": "1311",
+        "cleaned": "rekapitulasi suara di daerah berlangsung lancar dan kondusif kondusivitas rapat pleno tidak hanya meningkatkan nilai demokrasi juga mengurangi potensi konflik kepentingan yang bisa merugikan pemerintah ",
+        "token": "['rekapitulasi', 'suara', 'daerah', 'lancar', 'kondusif', 'kondusivitas', 'rapat', 'pleno', 'tidak', 'tingkat', 'nilai', 'demokrasi', 'kurang', 'potensi', 'konflik', 'penting', 'rugi', 'perintah']"
+    },
+    {
+        "id": "1312",
+        "cleaned": "indonesia menunjukkan kedewasaan demokrasi pada pemilu dengan persatuan dan keharmonisan ",
+        "token": "['indonesia', 'dewasa', 'demokrasi', 'milu', 'satu', 'harmonis']"
+    },
+    {
+        "id": "1313",
+        "cleaned": "kinerja kpu di pemilu menunjukkan komitmen kuat pada keadilan dan transparansi melalui regulasi ketat dan adaptasi terhadap tantangan daerah ",
+        "token": "['kerja', 'kpu', 'milu', 'komitmen', 'kuat', 'adil', 'transparansi', 'regulasi', 'ketat', 'adaptasi', 'tantang', 'daerah']"
+    },
+    {
+        "id": "1314",
+        "cleaned": "rapat pleno rekapitulasi suara yang diwajibkan oleh uu pemilu no tahun dan pkpu no tahun berperan vital dalam menjaga integritas pemilu ",
+        "token": "['rapat', 'pleno', 'rekapitulasi', 'suara', 'wajib', 'uu', 'milu', 'no', 'pkpu', 'no', 'peran', 'vital', 'jaga', 'integritas', 'milu']"
+    },
+    {
+        "id": "1315",
+        "cleaned": "solidaritas nasional dan penolakan terhadap provokasi menegaskan pentingnya kolaborasi antar elemen bangsa untuk stabilitas dan kemajuan indonesia pasca pemilu ",
+        "token": "['solidaritas', 'nasional', 'tolak', 'provokasi', 'kolaborasi', 'elemen', 'bangsa', 'stabilitas', 'maju', 'indonesia', 'pasca', 'milu']"
+    },
+    {
+        "id": "1316",
+        "cleaned": "kpu daerah melaporkan keberhasilan rapat pleno terbuka penghitungan suara yang aman dan lancar menegaskan pentingnya transparansi dan akuntabilitas dalam pemilu ",
+        "token": "['kpu', 'daerah', 'lapor', 'hasil', 'rapat', 'pleno', 'buka', 'hitung', 'suara', 'aman', 'lancar', 'transparansi', 'akuntabilitas', 'milu']"
+    },
+    {
+        "id": "1317",
+        "cleaned": "indonesia telah menunjukkan kedewasaan dalam proses demokrasi dengan kesadaran tinggi akan nilai kebangsaan dan kemanusiaan sebagai fondasi utama menghadapi masa depan ",
+        "token": "['indonesia', 'dewasa', 'proses', 'demokrasi', 'sadar', 'nilai', 'bangsa', 'manusia', 'fondasi', 'utama', 'hadap']"
+    },
+    {
+        "id": "1318",
+        "cleaned": "pelaksanaan pemilu serentak dapat terlaksana berkat profesionalisme dan integritas kpu ditunjang sosialisasi dan koordinasi efektif dengan berbagai pihak ",
+        "token": "['laksana', 'milu', 'serentak', 'laksana', 'berkat', 'profesionalisme', 'integritas', 'kpu', 'tunjang', 'sosialisasi', 'koordinasi', 'efektif']"
+    },
+    {
+        "id": "1319",
+        "cleaned": "kpu telah menunjukkan dedikasi luar biasa dalam menggelar pemilu meskipun menghadapi kendala teknis sepei masalah sirekap dan pelaksanaan psu di beberapa tempat ",
+        "token": "['kpu', 'dedikasi', 'gelar', 'milu', 'hadap', 'kendala', 'teknis', 'pei', 'sirekap', 'laksana', 'psu']"
+    },
+    {
+        "id": "1320",
+        "cleaned": "indonesia telah menunjukkan kedewasaan dalam proses demokrasi dengan kesadaran tinggi akan nilai kebangsaan dan kemanusiaan sebagai fondasi utama menghadapi masa depan ",
+        "token": "['indonesia', 'dewasa', 'proses', 'demokrasi', 'sadar', 'nilai', 'bangsa', 'manusia', 'fondasi', 'utama', 'hadap']"
+    },
+    {
+        "id": "1321",
+        "cleaned": "pujian internasional terhadap penyelenggaraan pemilu indonesia yang damai dan demokratis khususnya dari peemuan asean australia menjadi motivasi bagi indonesia ",
+        "token": "['puji', 'internasional', 'selenggara', 'milu', 'indonesia', 'damai', 'demokratis', 'peemuan', 'asean', 'australia', 'motivasi', 'indonesia']"
+    },
+    {
+        "id": "1322",
+        "cleaned": "dengan keterlibatan langsung saksi paai dan pengawasan publik diharapkan dapat mengeliminasi potensi manipulasi memperkuat kepercayaan publik dan menjamin legitimasi demokrasi ",
+        "token": "['libat', 'langsung', 'saksi', 'paai', 'awas', 'publik', 'harap', 'eliminasi', 'potensi', 'manipulasi', 'kuat', 'percaya', 'publik', 'jamin', 'legitimasi', 'demokrasi']"
+    },
+    {
+        "id": "1323",
+        "cleaned": "kesuksesan pemilu yang berlangsung aman dan kondusif adalah hasil dari koordinasi dan kerjasama antar stakeholder dan masyarakat ",
+        "token": "['sukses', 'milu', 'aman', 'kondusif', 'hasil', 'koordinasi', 'kerjasama', 'stakeholder', 'masyarakat']"
+    },
+    {
+        "id": "1324",
+        "cleaned": "kpu ri memulai rapat pleno terbuka rekapitulasi suara pemilu menekankan pada transparansi dan integritas hasil masyarakat diminta bersabar dan menjaga kedamaian ",
+        "token": "['kpu', 'ri', 'rapat', 'pleno', 'buka', 'rekapitulasi', 'suara', 'milu', 'tekan', 'transparansi', 'integritas', 'hasil', 'masyarakat', 'sabar', 'jaga', 'damai']"
+    },
+    {
+        "id": "1325",
+        "cleaned": "kpu telah berdedikasi luar biasa dalam menggelar pemilu meskipun menghadapi kendala teknis sepei masalah aplikasi sirekap dan pelaksanaan psu di beberapa tempat ",
+        "token": "['kpu', 'dedikasi', 'gelar', 'milu', 'hadap', 'kendala', 'teknis', 'pei', 'aplikasi', 'sirekap', 'laksana', 'psu']"
+    },
+    {
+        "id": "1326",
+        "cleaned": "ktt ini menegaskan pentingnya menerima hasil pemilu dan mendukung pemenang mendorong semua pihak untuk bersatu mempercepat pemulihan kondusifitas dan pembangunan indonesia ",
+        "token": "['ktt', 'terima', 'hasil', 'milu', 'dukung', 'menang', 'dorong', 'satu', 'cepat', 'pulih', 'kondusifitas', 'bangun', 'indonesia']"
+    },
+    {
+        "id": "1327",
+        "cleaned": "bulan ramadhan harus menjadi momentum untuk meredam konflik dan perpecahan antar kelompok ",
+        "token": "['ramadhan', 'harus', 'momentum', 'redam', 'konflik', 'pecah', 'kelompok']"
+    },
+    {
+        "id": "1328",
+        "cleaned": "kapolsek habinsaran besea anggota laksanakan giat monitoring dan pengamanan rekap suara tingkat kecamatan di wilkum polsek habinsaran ",
+        "token": "['kapolsek', 'habinsaran', 'besea', 'anggota', 'laksana', 'giat', 'monitoring', 'aman', 'rekap', 'suara', 'tingkat', 'camat', 'wilkum', 'polsek', 'habinsaran']"
+    },
+    {
+        "id": "1329",
+        "cleaned": "kedua inisiatif teknologi ini beujuan untuk mengurangi manipulasi suara dan menjamin integritas proses demokrasi menandai langkah maju dalam memastikan pemilu yang transparan dan adil ",
+        "token": "['inisiatif', 'teknologi', 'beujuan', 'kurang', 'manipulasi', 'suara', 'jamin', 'integritas', 'proses', 'demokrasi', 'tanda', 'langkah', 'maju', 'milu', 'transparan', 'adil']"
+    },
+    {
+        "id": "1330",
+        "cleaned": "kapolrestabes palembang besea wakapolrestabes palembang cek keamanan dan kesiapan ppk dalam melaksanakan rekapitulasi sekaligus memberikan motivasi kepada personel pengamanan dalam rangkaian pemilu tahun ",
+        "token": "['kapolrestabes', 'palembang', 'besea', 'wakapolrestabes', 'palembang', 'cek', 'aman', 'kesiap', 'ppk', 'laksana', 'rekapitulasi', 'motivasi', 'personel', 'aman', 'rangkai', 'milu']"
+    },
+    {
+        "id": "1331",
+        "cleaned": "jaga pemilu damai pemilu yang berkualitas dan demokratis menjadi tonggak kemajuan indonesia ",
+        "token": "['jaga', 'milu', 'damai', 'milu', 'kualitas', 'demokratis', 'tonggak', 'maju', 'indonesia']"
+    },
+    {
+        "id": "1332",
+        "cleaned": "kawal pemilu damai sampai selesai pemilu yang berkualitas dan demokratis menjadi tonggak kemajuan indonesia ",
+        "token": "['kawal', 'milu', 'damai', 'selesai', 'milu', 'kualitas', 'demokratis', 'tonggak', 'maju', 'indonesia']"
+    },
+    {
+        "id": "1333",
+        "cleaned": "ayo awasi dan kawal jalanya perhitungan suara pemilu pemilu yang berkualitas dan demokratis menjadi tonggak kemajuan indonesia ",
+        "token": "['ayo', 'awas', 'kawal', 'jala', 'hitung', 'suara', 'milu', 'milu', 'kualitas', 'demokratis', 'tonggak', 'maju', 'indonesia']"
+    },
+    {
+        "id": "1334",
+        "cleaned": "pengamanan tahap rekapitulasi hitung suara pemilu polresta denpasar dan polsek jajaran memastikan keamanan dalam tahap rekapitulasi hitung suara pemilu yang dilaksanakan di masing masing ppk kecamatan di daerah hukum polresta denpasar ",
+        "token": "['aman', 'tahap', 'rekapitulasi', 'hitung', 'suara', 'milu', 'polresta', 'denpasar', 'polsek', 'jajar', 'aman', 'tahap', 'rekapitulasi', 'hitung', 'suara', 'milu', 'laksana', 'ppk', 'camat', 'daerah', 'hukum', 'polresta', 'denpasar']"
+    },
+    {
+        "id": "1335",
+        "cleaned": "pemilu yang berkualitas dan demokratis menjadi tonggak kemajuan indonesia ",
+        "token": "['milu', 'kualitas', 'demokratis', 'tonggak', 'maju', 'indonesia']"
+    },
+    {
+        "id": "1336",
+        "cleaned": "pemilu yang berkualitas dan demokratis menjadi tonggak kemajuan indonesia ",
+        "token": "['milu', 'kualitas', 'demokratis', 'tonggak', 'maju', 'indonesia']"
+    },
+    {
+        "id": "1337",
+        "cleaned": "persatuan dan kesatuan bangsa adalah kunci untuk mencapai pembangunan yang berkelanjutan ",
+        "token": "['satu', 'satu', 'bangsa', 'kunci', 'capai', 'bangun', 'lanjut']"
+    },
+    {
+        "id": "1338",
+        "cleaned": "pemungutan suara yang aman di papua dan daerah konflik lain menjadi simbol kemajuan demokrasi indonesia ",
+        "token": "['mungut', 'suara', 'aman', 'papua', 'daerah', 'konflik', 'simbol', 'maju', 'demokrasi', 'indonesia']"
+    },
+    {
+        "id": "1339",
+        "cleaned": "pemilu damai di daerah konflik simbol kemajuan demokrasi indonesia pemungutan suara yang aman di papua dan daerah konflik lain menjadi simbol kemajuan demokrasi indonesia ",
+        "token": "['milu', 'damai', 'daerah', 'konflik', 'simbol', 'maju', 'demokrasi', 'indonesia', 'mungut', 'suara', 'aman', 'papua', 'daerah', 'konflik', 'simbol', 'maju', 'demokrasi', 'indonesia']"
+    },
+    {
+        "id": "1340",
+        "cleaned": "persatuan dan kesatuan bangsa adalah kunci untuk mencapai pembangunan yang berkelanjutan ",
+        "token": "['satu', 'satu', 'bangsa', 'kunci', 'capai', 'bangun', 'lanjut']"
+    },
+    {
+        "id": "1341",
+        "cleaned": "hak angket bukan untuk mencari kalah dan menang ya tetapi mencari kebenaran soal pelaksanaan uu atau kebijakan pemerintah moeldoko mkmk sirekap ",
+        "token": "['hak', 'angket', 'bukan', 'cari', 'kalah', 'menang', 'ya', 'cari', 'benar', 'laksana', 'uu', 'bijak', 'perintah', 'moeldoko', 'mkmk', 'sirekap']"
+    },
+    {
+        "id": "1342",
+        "cleaned": "ketenangan pemilu di papua dan daerah konflik mencerminkan kemajuan demokrasi indonesia peran penting aparat keamanan dan pbnu dalam menjaga stabilitas dan menghormati hasil pemilu ",
+        "token": "['tenang', 'milu', 'papua', 'daerah', 'konflik', 'cermin', 'maju', 'demokrasi', 'indonesia', 'peran', 'aparat', 'aman', 'pbnu', 'jaga', 'stabilitas', 'hormat', 'hasil', 'milu']"
+    },
+    {
+        "id": "1343",
+        "cleaned": "indonesia menunjukkan kedewasaan demokrasi dengan persatuan dan keharmonisan ",
+        "token": "['indonesia', 'dewasa', 'demokrasi', 'satu', 'harmonis']"
+    },
+    {
+        "id": "1344",
+        "cleaned": "kpu telah menjalankan tahap kritis pemilu dengan berbagai tantangan sepei pencoblosan ulang di beberapa wilayah karena faktor geografis dan cuaca ",
+        "token": "['kpu', 'jalan', 'tahap', 'kritis', 'milu', 'tantang', 'pei', 'coblos', 'ulang', 'wilayah', 'faktor', 'geografis', 'cuaca']"
+    },
+    {
+        "id": "1345",
+        "cleaned": "klarifikasi data dpt dan penanganan honorarium sea kesehatan petugas kpps menjadi prioritas untuk menjaga transparansi dan meningkatkan kepercayaan publik terhadap hasil pemilu ",
+        "token": "['klarifikasi', 'data', 'dpt', 'tangan', 'honorarium', 'sea', 'sehat', 'tugas', 'kpps', 'prioritas', 'jaga', 'transparansi', 'tingkat', 'percaya', 'publik', 'hasil', 'milu']"
+    },
+    {
+        "id": "1346",
+        "cleaned": "mahkamah konstitusi telah menjalankan tugas sengketa pemilu sesuai peraturan perundang undangan membuat keputusannya final dan tak terpengaruh oleh hak angket dpr ",
+        "token": "['mahkamah', 'konstitusi', 'jalan', 'tugas', 'sengketa', 'milu', 'sesuai', 'atur', 'undang', 'undang', 'putus', 'final', 'pengaruh', 'hak', 'angket', 'dpr']"
+    },
+    {
+        "id": "1347",
+        "cleaned": "kpu telah menjalankan tahap kritis pemilu dengan berbagai tantangan sepei pencoblosan ulang di beberapa wilayah karena faktor geografis dan cuaca sea penghitungan suara ulang ",
+        "token": "['kpu', 'jalan', 'tahap', 'kritis', 'milu', 'tantang', 'pei', 'coblos', 'ulang', 'wilayah', 'faktor', 'geografis', 'cuaca', 'sea', 'hitung', 'suara', 'ulang']"
+    },
+    {
+        "id": "1348",
+        "cleaned": "klarifikasi data dpt dan penanganan honorarium sea kesehatan petugas kpps menjadi prioritas untuk menjaga transparansi dan meningkatkan kepercayaan publik terhadap hasil pemilu ",
+        "token": "['klarifikasi', 'data', 'dpt', 'tangan', 'honorarium', 'sea', 'sehat', 'tugas', 'kpps', 'prioritas', 'jaga', 'transparansi', 'tingkat', 'percaya', 'publik', 'hasil', 'milu']"
+    },
+    {
+        "id": "1349",
+        "cleaned": "perbedaan pendapat pasca pemilu antara masyarakat pemerintah dan akar rumput membutuhkan penanganan yang bijaksana ",
+        "token": "['beda', 'dapat', 'pasca', 'milu', 'masyarakat', 'perintah', 'akar', 'rumput', 'butuh', 'tangan', 'bijaksana']"
+    },
+    {
+        "id": "1350",
+        "cleaned": "dengan pemilihan yang berjalan adil dan terbuka diharapkan dapat mendorong situasi damai dan stabilitas mendukung kemajuan dan pembangunan indonesia ",
+        "token": "['pilih', 'jalan', 'adil', 'buka', 'harap', 'dorong', 'situasi', 'damai', 'stabilitas', 'dukung', 'maju', 'bangun', 'indonesia']"
+    },
+    {
+        "id": "1351",
+        "cleaned": "kinerja kpu di pemilu menunjukkan komitmen kuat pada keadilan dan transparansi melalui regulasi ketat dan adaptasi terhadap tantangan daerah ",
+        "token": "['kerja', 'kpu', 'milu', 'komitmen', 'kuat', 'adil', 'transparansi', 'regulasi', 'ketat', 'adaptasi', 'tantang', 'daerah']"
+    },
+    {
+        "id": "1352",
+        "cleaned": "rekonsiliasi dan pembangunan kebangsaan pasca pemilu dianggap langkah esensial untuk memperkuat persatuan dan kesatuan bangsa ",
+        "token": "['rekonsiliasi', 'bangun', 'bangsa', 'pasca', 'milu', 'anggap', 'langkah', 'esensial', 'kuat', 'satu', 'satu', 'bangsa']"
+    },
+    {
+        "id": "1353",
+        "cleaned": "indonesia telah menunjukkan kedewasaan dalam proses demokrasi dengan kesadaran tinggi akan nilai kebangsaan dan kemanusiaan sebagai fondasi utama menghadapi masa depan ",
+        "token": "['indonesia', 'dewasa', 'proses', 'demokrasi', 'sadar', 'nilai', 'bangsa', 'manusia', 'fondasi', 'utama', 'hadap']"
+    },
+    {
+        "id": "1354",
+        "cleaned": "kondusivitas rapat pleno tidak hanya meningkatkan nilai demokrasi tetapi juga mengurangi potensi konflik kepentingan yang bisa merugikan pemerintah ini merupakan langkah esensial untuk suksesnya pesta demokrasi ",
+        "token": "['kondusivitas', 'rapat', 'pleno', 'tidak', 'tingkat', 'nilai', 'demokrasi', 'kurang', 'potensi', 'konflik', 'penting', 'rugi', 'perintah', 'langkah', 'esensial', 'sukses', 'pesta', 'demokrasi']"
+    },
+    {
+        "id": "1355",
+        "cleaned": "bangun ruang digital bersih dam sehat untuk demokrasi indonesia pemilu tanpa hoaks ",
+        "token": "['bangun', 'ruang', 'digital', 'bersih', 'dam', 'sehat', 'demokrasi', 'indonesia', 'milu', 'hoaks']"
+    },
+    {
+        "id": "1356",
+        "cleaned": "hoaks misinformasi dan disinformasi musuh kita bersama pemilu sukses damai dan bermaabat ",
+        "token": "['hoaks', 'misinformasi', 'disinformasi', 'musuh', 'milu', 'sukses', 'damai', 'bermaabat']"
+    },
+    {
+        "id": "1357",
+        "cleaned": "indonesia telah menunjukkan kedewasaan dalam proses demokrasi dengan kesadaran tinggi akan nilai kebangsaan dan kemanusiaan sebagai fondasi utama menghadapi masa depan ",
+        "token": "['indonesia', 'dewasa', 'proses', 'demokrasi', 'sadar', 'nilai', 'bangsa', 'manusia', 'fondasi', 'utama', 'hadap']"
+    },
+    {
+        "id": "1358",
+        "cleaned": "indonesia telah menunjukkan kedewasaan dalam proses demokrasi dengan kesadaran tinggi akan nilai kebangsaan dan kemanusiaan sebagai fondasi utama menghadapi masa depan ",
+        "token": "['indonesia', 'dewasa', 'proses', 'demokrasi', 'sadar', 'nilai', 'bangsa', 'manusia', 'fondasi', 'utama', 'hadap']"
+    },
+    {
+        "id": "1359",
+        "cleaned": "indonesia telah menunjukkan kedewasaan dalam proses demokrasi dengan kesadaran tinggi akan nilai kebangsaan dan kemanusiaan sebagai fondasi utama menghadapi masa depan ",
+        "token": "['indonesia', 'dewasa', 'proses', 'demokrasi', 'sadar', 'nilai', 'bangsa', 'manusia', 'fondasi', 'utama', 'hadap']"
+    },
+    {
+        "id": "1360",
+        "cleaned": "kpu daerah melaporkan keberhasilan rapat pleno terbuka penghitungan suara yang aman dan lancar menegaskan pentingnya transparansi dan akuntabilitas dalam pemilu ",
+        "token": "['kpu', 'daerah', 'lapor', 'hasil', 'rapat', 'pleno', 'buka', 'hitung', 'suara', 'aman', 'lancar', 'transparansi', 'akuntabilitas', 'milu']"
+    },
+    {
+        "id": "1361",
+        "cleaned": "jaga keberagaman dan hindari konflik dengan menyebarkan informasi yang benar b",
+        "token": "['jaga', 'agam', 'hindar', 'konflik', 'sebar', 'informasi', 'b']"
+    },
+    {
+        "id": "1362",
+        "cleaned": "pujian internasional terhadap penyelenggaraan pemilu indonesia yang damai dan demokratis khususnya dari peemuan asean australia menjadi motivasi bagi indonesia untuk mengatasi polarisasi dan merajut kembali harmoni nasional ",
+        "token": "['puji', 'internasional', 'selenggara', 'milu', 'indonesia', 'damai', 'demokratis', 'peemuan', 'asean', 'australia', 'motivasi', 'indonesia', 'atas', 'polarisasi', 'rajut', 'harmoni', 'nasional']"
+    },
+    {
+        "id": "1363",
+        "cleaned": "apresiasi internasional untuk pemilu damai indonesia dan ajakan untuk rekonsiliasi nasional ",
+        "token": "['apresiasi', 'internasional', 'milu', 'damai', 'indonesia', 'aja', 'rekonsiliasi', 'nasional']"
+    },
+    {
+        "id": "1364",
+        "cleaned": "motivasi bagi indonesia untuk mengatasi polarisasi dan merajut kembali harmoni nasional ",
+        "token": "['motivasi', 'indonesia', 'atas', 'polarisasi', 'rajut', 'harmoni', 'nasional']"
+    },
+    {
+        "id": "1365",
+        "cleaned": "kpu ri memulai rapat pleno terbuka rekapitulasi suara pemilu menekankan pada transparansi dan integritas hasil ",
+        "token": "['kpu', 'ri', 'rapat', 'pleno', 'buka', 'rekapitulasi', 'suara', 'milu', 'tekan', 'transparansi', 'integritas', 'hasil']"
+    },
+    {
+        "id": "1366",
+        "cleaned": "bulan ramadhan harus menjadi momentum untuk meredam konflik dan perpecahan antar kelompok politik setelah pasca masa pemilu ",
+        "token": "['ramadhan', 'harus', 'momentum', 'redam', 'konflik', 'pecah', 'kelompok', 'politik', 'pasca', 'milu']"
+    },
+    {
+        "id": "1367",
+        "cleaned": "pujian internasional terhadap penyelenggaraan pemilu indonesia yang damai dan demokratis khususnya dari peemuan asean australia ",
+        "token": "['puji', 'internasional', 'selenggara', 'milu', 'indonesia', 'damai', 'demokratis', 'peemuan', 'asean', 'australia']"
+    },
+    {
+        "id": "1368",
+        "cleaned": "ktt ini menegaskan pentingnya menerima hasil pemilu dan mendukung pemenang mendorong semua pihak untuk bersatu mempercepat pemulihan kondusifitas dan pembangunan indonesia ",
+        "token": "['ktt', 'terima', 'hasil', 'milu', 'dukung', 'menang', 'dorong', 'satu', 'cepat', 'pulih', 'kondusifitas', 'bangun', 'indonesia']"
+    },
+    {
+        "id": "1369",
+        "cleaned": "jangan mudah terprovokasi tunggu hasil resmi kpu mari sukseskan pemilu dengan aman dan damai ",
+        "token": "['mudah', 'provokasi', 'tunggu', 'hasil', 'resmi', 'kpu', 'mari', 'sukses', 'milu', 'aman', 'damai']"
+    },
+    {
+        "id": "1370",
+        "cleaned": "hak angket dpr tidak mewakili aspirasi rakyat ",
+        "token": "['hak', 'angket', 'dpr', 'tidak', 'wakil', 'aspirasi', 'rakyat']"
+    },
+    {
+        "id": "1371",
+        "cleaned": "bersabar menunggu hasil pemilu yang akan disampaikan oleh kpu mari sukseskan pemilu dengan aman dan damai ",
+        "token": "['sabar', 'tunggu', 'hasil', 'milu', 'kpu', 'mari', 'sukses', 'milu', 'aman', 'damai']"
+    },
+    {
+        "id": "1372",
+        "cleaned": "pemilu yang berkualitas dan demokratis menjadi tonggak kemajuan indonesia paisipasi masyarakat yang aktif persatuan nasional kondusivitas keamanan ",
+        "token": "['milu', 'kualitas', 'demokratis', 'tonggak', 'maju', 'indonesia', 'paisipasi', 'masyarakat', 'aktif', 'satu', 'nasional', 'kondusivitas', 'aman']"
+    },
+    {
+        "id": "1373",
+        "cleaned": "demokrasi hanya bisa maju jika kita bersatu ayo wujudkan pemilu damai ",
+        "token": "['demokrasi', 'maju', 'satu', 'ayo', 'wujud', 'milu', 'damai']"
+    },
+    {
+        "id": "1374",
+        "cleaned": "imbauan sejumlah tokoh untuk menjaga persatuan dan suasana damai pasca pemungutan suara pemilu ",
+        "token": "['imbau', 'tokoh', 'jaga', 'satu', 'suasana', 'damai', 'pasca', 'mungut', 'suara', 'milu']"
+    },
+    {
+        "id": "1375",
+        "cleaned": "upy bersama ini esensial untuk memastikan proses pemilu yang lancar dan transparan mendukung legitimasi hasil dan memperkuat fondasi demokrasi dengan informasi yang akurat ",
+        "token": "['upy', 'esensial', 'proses', 'milu', 'lancar', 'transparan', 'dukung', 'legitimasi', 'hasil', 'kuat', 'fondasi', 'demokrasi', 'informasi', 'akurat']"
+    },
+    {
+        "id": "1376",
+        "cleaned": "penghargaan diberikan kepada bangsa indonesia yang di tahun politik ini berhasil menjaga persatuan meskipun terdapat perbedaan pilihan politik ",
+        "token": "['harga', 'bangsa', 'indonesia', 'politik', 'hasil', 'jaga', 'satu', 'beda', 'pilih', 'politik']"
+    },
+    {
+        "id": "1377",
+        "cleaned": "pemilu yang berkualitas dan demokratis menjadi tonggak kemajuan indonesia ",
+        "token": "['milu', 'kualitas', 'demokratis', 'tonggak', 'maju', 'indonesia']"
+    },
+    {
+        "id": "1378",
+        "cleaned": "kpu telah menciptakan aplikasi sirekap inovasi revolusioner untuk penghitungan suara yang cepat dan akurat untuk pemilu ",
+        "token": "['kpu', 'cipta', 'aplikasi', 'sirekap', 'inovasi', 'revolusioner', 'hitung', 'suara', 'cepat', 'akurat', 'milu']"
+    },
+    {
+        "id": "1379",
+        "cleaned": "menurut undang undang hasil pemilu ditentukan oleh suara sah pemilih dalam pemungutan suara yang teratur ",
+        "token": "['undang', 'undang', 'hasil', 'milu', 'tentu', 'suara', 'sah', 'pilih', 'mungut', 'suara', 'atur']"
+    },
+    {
+        "id": "1380",
+        "cleaned": "penggunaan hak angket pasca pemilu oleh kelompok kelompok yang tidak puas dengan hasil perhitungan suara merupakan pendekatan yang keliru ",
+        "token": "['guna', 'hak', 'angket', 'pasca', 'milu', 'kelompok', 'kelompok', 'tidak', 'puas', 'hasil', 'hitung', 'suara', 'dekat', 'keliru']"
+    },
+    {
+        "id": "1381",
+        "cleaned": "kpu telah menjalankan tahap kritis pemilu dengan berbagai tantangan sepei pencoblosan ulang di beberapa wilayah karena faktor geografis dan cuaca ",
+        "token": "['kpu', 'jalan', 'tahap', 'kritis', 'milu', 'tantang', 'pei', 'coblos', 'ulang', 'wilayah', 'faktor', 'geografis', 'cuaca']"
+    },
+    {
+        "id": "1382",
+        "cleaned": "pemungutan suara yang aman di papua dan daerah konflik lain menjadi simbol kemajuan demokrasi indonesia ",
+        "token": "['mungut', 'suara', 'aman', 'papua', 'daerah', 'konflik', 'simbol', 'maju', 'demokrasi', 'indonesia']"
+    },
+    {
+        "id": "1383",
+        "cleaned": "kpu telah menjalankan tahap kritis pemilu dengan berbagai tantangan sepei pencoblosan ulang di beberapa wilayah karena faktor geografis dan cuaca sea penghitungan suara ulang ",
+        "token": "['kpu', 'jalan', 'tahap', 'kritis', 'milu', 'tantang', 'pei', 'coblos', 'ulang', 'wilayah', 'faktor', 'geografis', 'cuaca', 'sea', 'hitung', 'suara', 'ulang']"
+    },
+    {
+        "id": "1384",
+        "cleaned": "demi mewujudkan pemilu yang damai dan bermaabat pentingnya kesadaran kolektif dalam melawan penyebaran hoaks ",
+        "token": "['wujud', 'milu', 'damai', 'bermaabat', 'sadar', 'kolektif', 'lawan', 'sebar', 'hoaks']"
+    },
+    {
+        "id": "1385",
+        "cleaned": "membangun kedamaian pasca pemilu mewujudkan keadilan toleransi dan inklusivitas ",
+        "token": "['bangun', 'damai', 'pasca', 'milu', 'wujud', 'adil', 'toleransi', 'inklusivitas']"
+    },
+    {
+        "id": "1386",
+        "cleaned": "kpu ri memulai rapat pleno terbuka rekapitulasi suara pemilu menekankan pada transparansi dan integritas hasil ",
+        "token": "['kpu', 'ri', 'rapat', 'pleno', 'buka', 'rekapitulasi', 'suara', 'milu', 'tekan', 'transparansi', 'integritas', 'hasil']"
+    },
+    {
+        "id": "1387",
+        "cleaned": "indonesia menunjukkan kedewasaan demokrasi dengan persatuan dan keharmonisan ",
+        "token": "['indonesia', 'dewasa', 'demokrasi', 'satu', 'harmonis']"
+    },
+    {
+        "id": "1388",
+        "cleaned": "pujian internasional terhadap penyelenggaraan pemilu indonesia yang damai dan demokratis khususnya dari peemuan asean australia menjadi motivasi bagi indonesia untuk mengatasi polarisasi dan merajut kembali harmoni nasional ",
+        "token": "['puji', 'internasional', 'selenggara', 'milu', 'indonesia', 'damai', 'demokratis', 'peemuan', 'asean', 'australia', 'motivasi', 'indonesia', 'atas', 'polarisasi', 'rajut', 'harmoni', 'nasional']"
+    },
+    {
+        "id": "1389",
+        "cleaned": "pujian internasional terhadap penyelenggaraan pemilu indonesia yang damai dan demokratis ",
+        "token": "['puji', 'internasional', 'selenggara', 'milu', 'indonesia', 'damai', 'demokratis']"
+    },
+    {
+        "id": "1390",
+        "cleaned": "pujian internasional terhadap penyelenggaraan pemilu indonesia yang damai dan demokratis khususnya dari peemuan asean australia menjadi motivasi bagi indonesia untuk mengatasi polarisasi dan merajut kembali harmoni nasional ",
+        "token": "['puji', 'internasional', 'selenggara', 'milu', 'indonesia', 'damai', 'demokratis', 'peemuan', 'asean', 'australia', 'motivasi', 'indonesia', 'atas', 'polarisasi', 'rajut', 'harmoni', 'nasional']"
+    },
+    {
+        "id": "1391",
+        "cleaned": "sinergitas semua pihak penting untuk mengatasi isu dan menjaga kondusivitas pasca pemilu ",
+        "token": "['sinergitas', 'atas', 'isu', 'jaga', 'kondusivitas', 'pasca', 'milu']"
+    },
+    {
+        "id": "1392",
+        "cleaned": "kpu ri memulai rapat pleno terbuka rekapitulasi suara pemilu menekankan pada transparansi dan integritas hasil ",
+        "token": "['kpu', 'ri', 'rapat', 'pleno', 'buka', 'rekapitulasi', 'suara', 'milu', 'tekan', 'transparansi', 'integritas', 'hasil']"
+    },
+    {
+        "id": "1393",
+        "cleaned": "hak angket dpr tidak mewakili aspirasi rakyat ",
+        "token": "['hak', 'angket', 'dpr', 'tidak', 'wakil', 'aspirasi', 'rakyat']"
+    },
+    {
+        "id": "1394",
+        "cleaned": "kpu telah menunjukkan dedikasi luar biasa dalam menggelar pemilu meskipun menghadapi kendala teknis sepei masalah aplikasi sirekap dan pelaksanaan psu di beberapa tempat ",
+        "token": "['kpu', 'dedikasi', 'gelar', 'milu', 'hadap', 'kendala', 'teknis', 'pei', 'aplikasi', 'sirekap', 'laksana', 'psu']"
+    },
+    {
+        "id": "1395",
+        "cleaned": "kpu ri memulai rapat pleno terbuka rekapitulasi suara pemilu menekankan pada transparansi dan integritas hasil ",
+        "token": "['kpu', 'ri', 'rapat', 'pleno', 'buka', 'rekapitulasi', 'suara', 'milu', 'tekan', 'transparansi', 'integritas', 'hasil']"
+    },
+    {
+        "id": "1396",
+        "cleaned": "ktt ini menegaskan pentingnya menerima hasil pemilu dan mendukung pemenang mendorong semua pihak untuk bersatu mempercepat pemulihan kondusifitas dan pembangunan indonesia ",
+        "token": "['ktt', 'terima', 'hasil', 'milu', 'dukung', 'menang', 'dorong', 'satu', 'cepat', 'pulih', 'kondusifitas', 'bangun', 'indonesia']"
+    },
+    {
+        "id": "1397",
+        "cleaned": "pujian internasional terhadap penyelenggaraan pemilu indonesia yang damai dan demokratis menjadi motivasi bagi indonesia untuk mengatasi polarisasi dan merajut kembali harmoni nasional ",
+        "token": "['puji', 'internasional', 'selenggara', 'milu', 'indonesia', 'damai', 'demokratis', 'motivasi', 'indonesia', 'atas', 'polarisasi', 'rajut', 'harmoni', 'nasional']"
+    }
+]

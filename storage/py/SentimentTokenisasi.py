@@ -33,7 +33,7 @@ preprocessingTweet = lambda wordTweets : filterfalse(lambda x:
             and x not in negasi)
         else False, wordTweets.split()) # -> itertools.filterfalse()
 
-@lru_cache(maxsize=2180)
+# @lru_cache(maxsize=2180)
 def findWeightSentiment(wordTweet:str) -> int:
     global  sentimentDataset
     for x, i in enumerate(x for x in sentimentDataset['word']):
@@ -41,7 +41,7 @@ def findWeightSentiment(wordTweet:str) -> int:
             return next(islice((x for x in sentimentDataset['weight']), x, None))
     return 0
 
-@lru_cache(maxsize=30)
+# @lru_cache(maxsize=30)
 def findWeightInf(wordTweet:str) -> float:
     global kataPenguatFile
     for x, i in enumerate(x for x in kataPenguatFile['words']):
@@ -184,4 +184,4 @@ if __name__ == "__main__":
     time2 = time.perf_counter()
     print(f"Process Sudah Selesai, Silahkan Restart Browser")
     print(f"Waktu Eksekusi: {time2 - time1} detik")
-    print(findWeightSentiment.cache_info())
+#     print(findWeightSentiment.cache_info())

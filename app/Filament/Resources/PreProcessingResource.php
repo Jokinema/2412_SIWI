@@ -19,7 +19,7 @@ class PreProcessingResource extends Resource
     protected static ?string $navigationGroup = 'Models';
     protected static ?string $navigationLabel = 'Pre-Processing (Cleaning)';
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
-
+    protected static ?int $navigationSort = 1;
     public static function form(Form $form): Form
     {
         return $form

@@ -10,6 +10,7 @@ use Filament\Actions\Action;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Process;
 use Symfony\Component\Process\Process as SymfonyProcess;
+
 //use Symfony\Component\Process\Process;
 use Symfony\Component\Process\Exception\ProcessFailedException;
 
@@ -45,8 +46,8 @@ class ListPreProcessings extends ListRecords
                             env('PY_DIR'),
                             storage_path('py/pre_processing_cleaning.py'),
                             '--input_csv', $csvFilePath,
-                            '--output_json',    storage_path($outJson)
-                            ]);
+                            '--output_json', storage_path($outJson)
+                        ]);
                         $process->setTimeout(60); // Opsional: menetapkan batas waktu (dalam detik)
                         $process->run();
 
@@ -61,7 +62,7 @@ class ListPreProcessings extends ListRecords
 
                         // Menggunakan output dalam notifikasi
                         Notification::make()
-                            ->title((string) $output)
+                            ->title((string)$output)
                             ->success()
                             ->send();
 
@@ -69,12 +70,12 @@ class ListPreProcessings extends ListRecords
                         if (!empty($errorOutput)) {
                             // Log atau tangani output kesalahan
                             // Menggunakan output dalam notifikasi
+                            dd( $e->getMessage());
                             Notification::make()
-                                ->title((string) $errorOutput)
+                                ->title((string)$errorOutput)
                                 ->warning()
                                 ->send();
-                        }
-                        else { // jika tidak ada kesalhan
+                        } else { // jika tidak ada kesalhan
                             $jsonFilePath = storage_path($outJson);
                             $cleanedData = json_decode(file_get_contents($jsonFilePath), true);
 
@@ -93,7 +94,7 @@ class ListPreProcessings extends ListRecords
 
                     } catch (ProcessFailedException $e) {
                         // Menangani pengecualian, misalnya memberi tahu pengguna tentang kegagalan
-//                        dd( $e->getMessage());
+                        dd( $e->getMessage());
                         Notification::make()
                             ->title('Process failed: ' . $e->getMessage())
                             ->warning()
