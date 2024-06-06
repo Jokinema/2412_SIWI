@@ -17,7 +17,7 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 class PembobotanTfIdFResource extends Resource
 {
     protected static ?string $model = TfidfResult::class;
-    protected static ?string $navigationGroup = 'Pembobotan';
+    protected static ?string $navigationGroup = 'Pembobotan/Kamus Data';
     protected static ?string $navigationLabel = 'Pembobotan TF-IDF';
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 

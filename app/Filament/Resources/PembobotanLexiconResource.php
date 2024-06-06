@@ -17,7 +17,7 @@ class PembobotanLexiconResource extends Resource
 {
     protected static ?string $model = PembobotanLexicon::class;
 
-    protected static ?string $navigationGroup = 'Pembobotan';
+    protected static ?string $navigationGroup = 'Pembobotan/Kamus Data';
     protected static ?string $navigationLabel = 'Pembobotan Lexicon';
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
     protected static ?int $navigationSort = 2;

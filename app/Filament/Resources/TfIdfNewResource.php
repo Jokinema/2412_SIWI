@@ -2,10 +2,9 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\PembobotanKataKeteranganResource\Pages;
-use App\Filament\Resources\PembobotanKataKeteranganResource\RelationManagers;
-use App\Models\PembobotanKataKeterangan;
-use App\Models\PembobotanLexicon;
+use App\Filament\Resources\TfIdfNewResource\Pages;
+use App\Filament\Resources\TfIdfNewResource\RelationManagers;
+use App\Models\TfIdfNew;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -14,16 +13,12 @@ use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
-class PembobotanKataKeteranganResource extends Resource
+class TfIdfNewResource extends Resource
 {
-    protected static ?string $model = PembobotanKataKeterangan::class;
-
-    protected static ?string $navigationGroup = 'Pembobotan/Kamus Data';
-    protected static ?string $navigationLabel = 'Pembobotan Kata Keterangan';
-
-
+    protected static ?string $model = TfIdfNew::class;
+    protected static ?string $navigationGroup = 'Dashboard';
+    protected static ?string $navigationLabel = 'TF-IDF';
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
-    protected static ?int $navigationSort = 2;
 
     public static function form(Form $form): Form
     {
@@ -37,8 +32,7 @@ class PembobotanKataKeteranganResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('word')->label('Kata/Kalimat'),
-                Tables\Columns\TextColumn::make('weight')->label('Bobot'),
+                //
             ])
             ->filters([
                 //
@@ -63,9 +57,9 @@ class PembobotanKataKeteranganResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListPembobotanKataKeterangans::route('/'),
-            'create' => Pages\CreatePembobotanKataKeterangan::route('/create'),
-            'edit' => Pages\EditPembobotanKataKeterangan::route('/{record}/edit'),
+            'index' => Pages\ListTfIdfNews::route('/'),
+            'create' => Pages\CreateTfIdfNew::route('/create'),
+            'edit' => Pages\EditTfIdfNew::route('/{record}/edit'),
         ];
     }
 }

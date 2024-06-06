@@ -32,7 +32,6 @@ class EvaluasiWidget extends BaseWidget
             Stat::make('Chart Evaluasi', '')
                 ->value(function (): HtmlString {
                     $imageUrl = Storage::url('sentiment.jpg');
-
                     return new HtmlString("<img src='{$imageUrl}' alt='Chart Evaluasi'>");
                 }),
         ];
