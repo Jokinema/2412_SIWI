@@ -26,6 +26,8 @@ class DashboardResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
+    protected static string $view = 'filament.resources.dashboard-resource.pages.dashboard';
+
     public static function form(Form $form): Form
     {
         return $form
@@ -73,7 +75,7 @@ class DashboardResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListDashboards::route('/'),
+            'index' => Pages\Dashboard::route('/'),
             'create' => Pages\CreateDashboard::route('/create'),
             'edit' => Pages\EditDashboard::route('/{record}/edit'),
         ];

@@ -19,4 +19,15 @@ class Evaluasi extends Model
     {
         return $this->belongsTo(PreProcessing::class, 'pre_processings_id', 'id');
     }
+    public function getLabeledHasilAttribute()
+    {
+        if ($this->hasil < 0) {
+            return 'negatif';
+        } elseif ($this->hasil >= 0 && $this->hasil <= 1) {
+            return 'netral';
+        } else {
+            return 'positif';
+        }
+    }
+
 }

@@ -11,6 +11,7 @@ use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Columns\BadgeColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
@@ -34,7 +35,14 @@ class EvaluasiResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('hasil')->label('Hasil Prediksi Sentimen'),
+                BadgeColumn::make('labeled_hasil')
+                    ->label('Hasil Prediksi (LABEL)')
+                    ->getStateUsing(fn (Evaluasi $record): string => $record->labeled_hasil)
+                    ->colors([
+                        'danger' => 'negatif',
+                        'warning' => 'netral',
+                        'success' => 'positif',
+                    ]), Tables\Columns\TextColumn::make('hasil')->label('Hasil Prediksi Sentimen'),
 //                Tables\Columns\TextColumn::make('pre_processings.tokenized')->label('Original'),
                 Tables\Columns\TextColumn::make('preprocess.cleaned')->label('Original'),
 

@@ -18,11 +18,12 @@ class PembobotanTfIdFResource extends Resource
 {
     protected static ?string $model = TfidfResult::class;
     protected static ?string $navigationGroup = 'Pembobotan/Kamus Data';
-    protected static ?string $navigationLabel = 'Pembobotan TF-IDF';
+//    protected static ?string $navigationLabel = 'Pembobotan/Kamus Data Lexicon';
+//    protected static ?string $navigationLabel = 'Pembobotan ';
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
 
-    protected static ?int $navigationSort = 2;
+//    protected static ?int $navigationSort = ;
     public static function form(Form $form): Form
     {
         return $form

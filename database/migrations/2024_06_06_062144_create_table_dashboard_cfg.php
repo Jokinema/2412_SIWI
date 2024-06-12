@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('table_dashboard_cfg', function (Blueprint $table) {
             $table->id();
+            $table->string('last_col_cfg')->nullable();
             $table->timestamps();
         });
     }

@@ -16,4 +16,16 @@ class PembobotanLexicon extends Model
     ];
 
     protected $table = 'bobot_lexicon';
+
+    public function getLabeledBobotAttribute()
+    {
+        if ($this->weight < 0) {
+            return 'negatif';
+        } elseif ($this->weight >= 0 && $this->weight <= 1) {
+            return 'netral';
+        } else {
+            return 'positif';
+        }
+    }
+
 }

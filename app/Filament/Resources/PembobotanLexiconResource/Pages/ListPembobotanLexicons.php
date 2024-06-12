@@ -10,7 +10,7 @@ use Filament\Resources\Pages\ListRecords;
 class ListPembobotanLexicons extends ListRecords
 {
     protected static string $resource = PembobotanLexiconResource::class;
-    protected static ?string $title =  'Pembobotan Lexicon';
+    protected static ?string $title =  'Pembobotan/Kamus Data Lexicon';
     protected function getHeaderActions(): array
     {
         return [

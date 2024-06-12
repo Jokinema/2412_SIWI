@@ -4,6 +4,7 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\TfIdfNewResource\Pages;
 use App\Filament\Resources\TfIdfNewResource\RelationManagers;
+use App\Models\Evaluasi;
 use App\Models\TfIdfNew;
 use Filament\Forms;
 use Filament\Forms\Form;
@@ -15,7 +16,7 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 
 class TfIdfNewResource extends Resource
 {
-    protected static ?string $model = TfIdfNew::class;
+    protected static ?string $model = Evaluasi::class;
     protected static ?string $navigationGroup = 'Dashboard';
     protected static ?string $navigationLabel = 'TF-IDF';
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
@@ -32,7 +33,8 @@ class TfIdfNewResource extends Resource
     {
         return $table
             ->columns([
-                //
+                Tables\Columns\TextColumn::make('getLabeledHasil'),
+
             ])
             ->filters([
                 //
