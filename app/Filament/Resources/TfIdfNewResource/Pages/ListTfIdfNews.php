@@ -9,11 +9,11 @@ use Filament\Resources\Pages\ListRecords;
 class ListTfIdfNews extends ListRecords
 {
     protected static string $resource = TfIdfNewResource::class;
-
+    protected static ?string $title = "T";
     protected function getHeaderActions(): array
     {
         return [
-            Actions\CreateAction::make(),
+//            Actions\CreateAction::make(),
         ];
     }
 }
