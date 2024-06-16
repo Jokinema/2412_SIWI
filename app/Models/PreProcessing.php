@@ -22,4 +22,9 @@ class PreProcessing extends Model
     {
         return $this->belongsTo(Dataset::class, 'datasets_id', 'id');
     }
+    public function evaluasis()
+    {
+        return $this->hasMany(Evaluasi::class);
+    }
+
 }

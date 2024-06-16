@@ -23,4 +23,8 @@ class Dataset extends Model
     ];
 
     protected $table = 'datasets';
+    public function preprocessings()
+    {
+        return $this->hasMany(PreProcessing::class);
+    }
 }
